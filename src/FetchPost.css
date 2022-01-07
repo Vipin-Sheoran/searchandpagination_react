@@ -1,0 +1,35 @@
+button {
+    background-color: #0d0d0d;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: medium;
+    color: #fafaf3;
+    text-shadow: #495c99;
+    cursor: pointer;
+    margin: 8px;
+}
+button:hover{
+    background-color: #8492c1;
+}
+button:active{
+    background-color: #c2848d;
+}
+.posts{
+    margin-top: 48px;
+    margin-left: 16px;
+    color: #fafaf3;
+}
+.top{
+    height: 90vh;
+}
+input{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 16px;   
+    margin-top: 32px;
+}
+.bottom{
+    margin-left: 8px;
+}
