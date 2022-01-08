@@ -1,22 +1,22 @@
 button {
-    background-color: #0d0d0d;
+    background-color: #1f2937;
     padding: 8px;
     border: 2px solid black;
     border-radius: 6px;
     font-size: medium;
-    color: #fafaf3;
-    text-shadow: #495c99;
+    color: #d97706;
+    text-shadow: #e7ecfa;
     cursor: pointer;
-    margin: 8px;
+    margin-bottom: 4.8vh;
 }
 button:hover{
     background-color: #8492c1;
 }
 button:active{
-    background-color: #c2848d;
+    background: #c2848d;
 }
 .posts{
-    margin-top: 48px;
+    margin-top: 32px;
     margin-left: 16px;
     color: #fafaf3;
 }
@@ -32,4 +32,16 @@ input{
 }
 .bottom{
     margin-left: 8px;
+}
+.prev{
+    width: 70px;
+    border-bottom-left-radius: 30px;
+    margin-left: 8px;
+}
+.next{
+    border-bottom-right-radius: 30px;
+    width: 70px;
+}
+hr{
+    background-color: #d97706;
 }

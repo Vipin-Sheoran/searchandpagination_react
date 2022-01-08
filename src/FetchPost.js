@@ -61,7 +61,7 @@ function FetchPost() {
         <div className='container'>
             <div className='top'>
             <input type='text' placeholder='Search by Title' onChange={changeHandler} />
-            
+            <h3 style={{color:'white',marginLeft:'16px'}}>Page {initialPage+1}</h3>
             {   
                 currentPosts.slice(initialPage * PPerpage, (initialPage + 1) * PPerpage).map(each => {
                     return (
@@ -76,13 +76,13 @@ function FetchPost() {
             <br />
             </div>
             <div className='bottom'>
-            <button disabled={disabledPrev} onClick={() => setinitialPage(initialPage - 1)}>Prev</button>
+            <button className='prev' disabled={disabledPrev} onClick={() => setinitialPage(initialPage - 1)}>Prev</button>
             {
                 pages.map(each => {
                     return <button key={each} onClick={() => setinitialPage(each - 1)}>{each}</button>
                 })
             }
-            <button disabled={disabledNext} onClick={() => setinitialPage(initialPage + 1)}>Next</button>
+            <button className='next' disabled={disabledNext} onClick={() => setinitialPage(initialPage + 1)}>Next</button>
             </div>
         </div>
     )
